@@ -4,7 +4,7 @@ if (isNaN(size))
 {
     console.log('Missing size');
 } else {
-    repeating = 'X'.repeat(size)
+    let repeating = 'X'.repeat(size)
     for (let loop = 0; loop < size; loop++){
         console.log(repeating);
     }
